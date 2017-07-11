@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         NSLog("%@", "hello world")
+        let a = "factminr"
+        let b = a
+        
+        NSLog("%@", b)
+        
     }
 
     override func didReceiveMemoryWarning() {
